@@ -7,5 +7,5 @@ export interface ReactRowProps extends RowProps {
 
 const rowView = (props: any): any => null;
 export function Row(props: ReactRowProps): any {
-    return <columnView {...props} />
+    return <rowView {...props} />
 }

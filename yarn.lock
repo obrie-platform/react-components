@@ -898,10 +898,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@obrie/sdk@^0.0.23":
-  version "0.0.23"
-  resolved "https://registry.yarnpkg.com/@obrie/sdk/-/sdk-0.0.23.tgz#af380ebce6b99e4ab95006c29305d9fba51224a8"
-  integrity sha512-1+ZmIPyJXhjJ0NtILAI9qRNHJwJpKFBPJ8pxP2ywOcTgKF2Q5YFLCGlku/Ol7PYV+t6RXZdwCrqmVX9xPUdLYA==
+"@obrie/sdk@^0.0.26":
+  version "0.0.26"
+  resolved "https://registry.yarnpkg.com/@obrie/sdk/-/sdk-0.0.26.tgz#6a51534d9cfb62c46fd2f6971988fdad2ffd8c88"
+  integrity sha512-kYV5GshT7TRgBWkECZvLaGUsd06j9KQyNDKhWK0Rv1KG0h8C3JFQVIbYp8usQCeQq1pKnB7wHhc8p5gu1MPsGA==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
