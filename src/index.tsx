@@ -20,6 +20,7 @@ declare global {
     }
 }
 
+export * from './renderer'
 export * from './hooks/useForm'
 export * from './hooks/usePermission'
 export * from './widgets/Column'
