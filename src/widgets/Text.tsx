@@ -1,9 +1,8 @@
 import * as React from "react";
-import {ReactText} from "react";
 import {TextProps} from "@obrie/sdk";
 
 export interface ReactTextProps extends TextProps {
-    children?: ReactText
+    children?: React.ReactNode
 }
 
 const textView = (props: any): any => null;

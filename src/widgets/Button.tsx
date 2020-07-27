@@ -1,9 +1,8 @@
 import * as React from "react";
-import {ReactText} from "react";
 import {ButtonProps} from "@obrie/sdk";
 
 export interface ReactButtonProps extends ButtonProps {
-    children: ReactText;
+    children: React.ReactText;
 }
 
 const buttonView = (props: any): any => null;

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "commonjs",
     "jsx": "react",
     "lib": ["ES7"],
     "rootDir": "./src",

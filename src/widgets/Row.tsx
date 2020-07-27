@@ -1,9 +1,8 @@
 import * as React from "react";
-import {ReactNode} from "react";
 import {RowProps} from "@obrie/sdk";
 
 export interface ReactRowProps extends RowProps {
-    children?: ReactNode
+    children?: React.ReactNode
 }
 
 const rowView = (props: any): any => null;
