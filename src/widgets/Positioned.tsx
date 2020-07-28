@@ -6,6 +6,6 @@ export interface ReactPositionedProps extends PositionedProps {
 }
 
 const positionedView = (props: any): any => null;
-export function Positioned(props: ReactPositionedProps): React.ReactNode {
+export function Positioned(props: ReactPositionedProps): JSX.Element {
     return <positionedView {...props} />
 }

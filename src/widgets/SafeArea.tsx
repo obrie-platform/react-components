@@ -6,6 +6,6 @@ export interface ReactSafeAreaProps extends SafeAreaProps {
 }
 
 const safeAreaView = (props: any): any => null;
-export function SafeArea(props: ReactSafeAreaProps): React.ReactNode {
+export function SafeArea(props: ReactSafeAreaProps): JSX.Element {
     return <safeAreaView {...props} />
 }

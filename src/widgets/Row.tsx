@@ -6,6 +6,6 @@ export interface ReactRowProps extends RowProps {
 }
 
 const rowView = (props: any): any => null;
-export function Row(props: ReactRowProps): React.ReactNode {
+export function Row(props: ReactRowProps): JSX.Element {
     return <rowView {...props} />
 }

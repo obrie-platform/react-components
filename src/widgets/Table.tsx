@@ -5,6 +5,6 @@ export interface ReactTableProps extends TableProps {
 }
 
 const tableView = (props: any): any => null;
-export function TableField(props: ReactTableProps): React.ReactNode {
+export function Table(props: ReactTableProps): JSX.Element {
     return <tableView {...props} />
 }

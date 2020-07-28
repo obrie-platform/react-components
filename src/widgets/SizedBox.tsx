@@ -5,6 +5,6 @@ export interface ReactSizedBoxProps extends SizedBoxProps {
 }
 
 const sizedBoxView = (props: any): any => null;
-export function SizedBoxField(props: ReactSizedBoxProps): React.ReactNode {
+export function SizedBox(props: ReactSizedBoxProps): JSX.Element {
     return <sizedBoxView {...props} />
 }

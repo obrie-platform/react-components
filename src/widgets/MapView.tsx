@@ -5,6 +5,6 @@ export interface ReactMapViewProps extends MapProps {
 }
 
 const mapView = (props: any): any => null;
-export function MapViewField(props: ReactMapViewProps): React.ReactNode {
+export function MapView(props: ReactMapViewProps): JSX.Element {
     return <mapView {...props} />
 }

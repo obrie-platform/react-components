@@ -6,6 +6,6 @@ export interface ReactContainerProps extends ContainerProps {
 }
 
 const containerView = (props: any): any => null;
-export function Container(props: ReactContainerProps): React.ReactNode {
+export function Container(props: ReactContainerProps): JSX.Element {
     return <containerView {...props} />
 }

@@ -7,6 +7,6 @@ export interface ReactFormProps extends FormProps {
 }
 
 const formView = (props: any): any => null;
-export function Form(props: ReactFormProps): React.ReactNode {
+export function Form(props: ReactFormProps): JSX.Element {
     return <formView {...props} />
 }

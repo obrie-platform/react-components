@@ -6,6 +6,6 @@ export interface ReactScreenProps extends ScreenProps {
 }
 
 const screen = (props: any): any => null;
-export function Screen(props: ReactScreenProps): React.ReactNode {
+export function Screen(props: ReactScreenProps): JSX.Element {
     return <screen {...props} />
 }

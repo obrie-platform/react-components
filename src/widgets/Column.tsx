@@ -6,6 +6,6 @@ export interface ReactColumnProps extends ColumnProps {
 }
 
 const columnView = (props: any): any => null;
-export function Column(props: ReactColumnProps): React.ReactNode {
+export function Column(props: ReactColumnProps): JSX.Element {
     return <columnView {...props} />
 }

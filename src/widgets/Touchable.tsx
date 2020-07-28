@@ -6,6 +6,6 @@ export interface ReactTouchableProps extends TouchableProps {
 }
 
 const touchableView = (props: any): any => null;
-export function Touchable(props: ReactTouchableProps): React.ReactNode {
+export function Touchable(props: ReactTouchableProps): JSX.Element {
     return <touchableView {...props} />
 }

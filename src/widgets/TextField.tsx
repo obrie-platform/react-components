@@ -6,7 +6,7 @@ export interface ReactTextFieldProps extends TextFieldProps {
 }
 
 const textFieldView = (props: any): any => null;
-export function TextField(props: ReactTextFieldProps): React.ReactNode {
+export function TextField(props: ReactTextFieldProps): JSX.Element {
     return <textFieldView {...props} />
 }
 

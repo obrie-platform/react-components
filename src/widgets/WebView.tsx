@@ -6,7 +6,7 @@ export interface ReactWebViewProps extends WebViewProps {
 }
 
 const webView = (props: any): any => null;
-export function WebViewField(props: ReactWebViewProps): React.ReactNode {
+export function WebView(props: ReactWebViewProps): JSX.Element {
     return <webView {...props} />
 }
 

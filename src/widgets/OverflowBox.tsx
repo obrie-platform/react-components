@@ -5,6 +5,6 @@ export interface ReactOverflowBoxProps extends OverflowBoxProps {
 }
 
 const overflowBoxView = (props: any): any => null;
-export function OverflowBoxField(props: ReactOverflowBoxProps): React.ReactNode {
+export function OverflowBox(props: ReactOverflowBoxProps): JSX.Element {
     return <overflowBoxView {...props} />
 }
