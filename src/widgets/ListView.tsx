@@ -6,6 +6,6 @@ export interface ReactListViewProps extends ListViewProps {
 }
 
 const listView = (props: any): any => null;
-export function ListView(props: ReactListViewProps): any {
+export function ListView(props: ReactListViewProps): React.ReactNode {
     return <listView {...props} />
 }

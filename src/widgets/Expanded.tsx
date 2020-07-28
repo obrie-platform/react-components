@@ -6,6 +6,6 @@ export interface ReactExpandedProps extends ExpandedProps {
 }
 
 const expandedView = (props: any): any => null;
-export function Expanded(props: ReactExpandedProps): any {
+export function Expanded(props: ReactExpandedProps): React.ReactNode {
     return <expandedView {...props} />
 }

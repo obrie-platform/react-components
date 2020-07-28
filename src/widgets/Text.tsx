@@ -6,6 +6,6 @@ export interface ReactTextProps extends TextProps {
 }
 
 const textView = (props: any): any => null;
-export function Text(props: ReactTextProps): any {
+export function Text(props: ReactTextProps): React.ReactNode {
     return <textView {...props} />
 }

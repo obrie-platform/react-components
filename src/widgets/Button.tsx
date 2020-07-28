@@ -6,6 +6,6 @@ export interface ReactButtonProps extends ButtonProps {
 }
 
 const buttonView = (props: any): any => null;
-export function Button(props: ReactButtonProps): any {
+export function Button(props: ReactButtonProps): React.ReactNode {
     return <buttonView {...props} />
 }

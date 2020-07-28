@@ -6,6 +6,6 @@ export interface ReactStackProps extends StackProps {
 }
 
 const stackView = (props: any): any => null;
-export function Stack(props: ReactStackProps): any {
+export function Stack(props: ReactStackProps): React.ReactNode {
     return <stackView {...props} />
 }

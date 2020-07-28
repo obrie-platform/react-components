@@ -1,4 +1,5 @@
 import * as React from 'react'
+import {ElementType} from "react";
 
 declare const window: Record<any, any>;
 
@@ -6,8 +7,14 @@ declare global {
     namespace JSX {
         interface IntrinsicElements {
             screen: {};
+            tableView: {};
+            tableRowView: {};
             safeAreaView: {};
             touchableView: {};
+            sizedBoxView: {};
+            overflowBoxView: {};
+            mapView: {};
+            webView: {};
             stackView: {};
             positionedView: {};
             rowView: {};
@@ -42,3 +49,9 @@ export * from './widgets/Positioned'
 export * from './widgets/SafeArea'
 export * from './widgets/Touchable'
 export * from './widgets/Stack'
+export * from './widgets/SizedBox'
+export * from './widgets/OverflowBox'
+export * from './widgets/Table'
+export * from './widgets/TableRow'
+export * from './widgets/MapView'
+export * from './widgets/WebView'
